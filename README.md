@@ -17,7 +17,7 @@
 
 - Run the server
     ```bash
-    GOKTLS=1 go run -tags=debug server.go
+    GOKTLS=1 go run server.go
     ```
     To print out the debug information, run with `-tags=debug`.
     ```bash
@@ -26,7 +26,7 @@
 
 - Run the client
     ```bash
-    GOKTLS=1 go run -tags=debug client.go
+    GOKTLS=1 go run client.go
     ```
     To print out the debug information, run with `-tags=debug`.
     ```bash
@@ -35,7 +35,7 @@
 
 - Run clients to test different ciphersuites and TLS versions.
     ```bash
-    GOKTLS=1 go run -tags=debug client_test_tls_config.go
+    GOKTLS=1 go run client_test_tls_config.go
     ```
     To print out the debug information, run with `-tags=debug`.
     ```bash
