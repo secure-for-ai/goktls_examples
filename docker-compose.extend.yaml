@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+  dev:
+    build: 
+      context: .
+      dockerfile: dockerfile
+    volumes:
+      - .:/workspace:cached
+      - ../goktls:/goktls
+      - ~/.ssh:/home/vscode/.ssh
+    working_dir: /workspace
+    # entrypoint: ["bash"] #["dlv", "debug", "--listen=:40000", "--headless=true", "--api-version=2", "--accept-multiclient"]
+    security_opt:
+      - seccomp:unconfined
+    cap_add: 
+      - SYS_PTRACE
+    # --security-opt="apparmor=unconfined" --cap-add=SYS_PTRACE
+    command: sleep infinity 
