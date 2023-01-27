@@ -12,6 +12,7 @@ RUN go install github.com/haya14busa/goplay/cmd/goplay@latest
 RUN go install github.com/go-delve/delve/cmd/dlv@latest
 RUN go install honnef.co/go/tools/cmd/staticcheck@latest
 RUN go install golang.org/x/tools/gopls@latest
+RUN go install -v github.com/golangci/golangci-lint/cmd/golangci-lint@v1.50.1
 RUN go clean -modcache
 
 ARG USERNAME=vscode
