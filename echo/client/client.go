@@ -11,6 +11,10 @@ import (
 func main() {
 	log.SetFlags(log.Lshortfile)
 	kw, err := os.OpenFile("same-key.log", os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0755)
+	if err != nil {
+		log.Println(err)
+		return
+	}
 	conf := &tls.Config{
 		InsecureSkipVerify: true,
 		MaxVersion:         tls.VersionTLS13,
