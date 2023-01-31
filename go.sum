@@ -1,6 +1,6 @@
 github.com/rogpeppe/go-internal v1.9.0 h1:73kH8U+JUqXU8lRuOHeVHaa/SZPifC7BkcraZVejAe8=
-github.com/secure-for-ai/goktls v1.20.0-rc3.1 h1:S13f7Nof8l712vWTD90l26L7aKM12ri/D1+H5a8VCnE=
-github.com/secure-for-ai/goktls v1.20.0-rc3.1/go.mod h1:JhIqSh5/VXJbuwLtDQjzlWdmPLYuV6szY+N9eWJ91c0=
+github.com/secure-for-ai/goktls v1.20.0-rc3.2 h1:gPGgdaXmbIB6ZLBw4AeTJgNZkOwnd7wzagJyhOILpE0=
+github.com/secure-for-ai/goktls v1.20.0-rc3.2/go.mod h1:JhIqSh5/VXJbuwLtDQjzlWdmPLYuV6szY+N9eWJ91c0=
 golang.org/x/crypto v0.5.0 h1:U/0M97KRkSFvyD/3FSmdP5W5swImpNgle/EHFhOsQPE=
 golang.org/x/crypto v0.5.0/go.mod h1:NK/OQwhpMQP3MwtdjgLlYHnH9ebylxKWv3e0fK+mkQU=
 golang.org/x/sys v0.4.0 h1:Zr2JFtRQNX3BCZ8YtxRE9hNJYC8J6I1MVbMg6owUp18=
