@@ -3,7 +3,7 @@ services:
   dev:
     build: 
       context: .
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     volumes:
       - .:/workspace:cached
       - ../goktls:/goktls
